@@ -10,7 +10,6 @@ package Estructura;
  *
  * @author Brayan
  */
-public class Estado {
+public class Regla {
     
-    private int r;
 }
