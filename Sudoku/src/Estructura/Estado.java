@@ -12,5 +12,21 @@ package Estructura;
  */
 public class Estado {
     
-    private int r;
+    private int mapa[][];
+    
+    /*
+    *Constructor
+    */
+    public Estado(){
+        this.mapa = new int[9][9];
+    }
+
+    public int[][] getMapa() {
+        return mapa;
+    }
+
+    public void setMapa(int[][] mapa) {
+        this.mapa = mapa;
+    }
+    
 }
